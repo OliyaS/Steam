@@ -50,6 +50,9 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/suites/${suites}.xml</suiteXmlFile>
                     </suiteXmlFiles>
+                    <systemProperties>
+                        <browser>${browser}</browser>
+                    </systemProperties>
                 </configuration>
 
             </plugin>
